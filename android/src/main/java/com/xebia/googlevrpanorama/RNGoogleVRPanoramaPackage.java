@@ -11,7 +11,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class RNGoogleVRPanoramaPackage implements ReactPackage {
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
